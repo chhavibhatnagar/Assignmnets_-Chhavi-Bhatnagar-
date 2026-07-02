@@ -51,6 +51,38 @@ The assistant retrieves the most relevant information from the uploaded document
 * Export chat history and summaries
 * Cloud deployment
 
+
+# Steps
+
+1. Clone or download the repository.
+
+2. Open the project in your preferred IDE.
+
+3. Create and activate a virtual environment.
+
+4. Install all the required dependencies using the `requirements.txt` file.
+
+5. Create a folder named `.streamlit` inside the `Smart_Research_Assistant` directory.
+
+6. Inside the `.streamlit` folder, create a file named `secrets.toml` and add the following:
+
+```toml
+[credentials]
+username = "your_username"
+password = "your_password"
+
+[openai]
+api_key = "your_openai_api_key"
+
+[groq]
+api_key = "your_groq_api_key"
+```
+
+7. Replace the placeholder values with your own credentials and API keys.
+
+8. Run the Streamlit application and open the local URL displayed in the terminal.
+
+
 ## Demo Login
 
 Use the following credentials to access the application:
