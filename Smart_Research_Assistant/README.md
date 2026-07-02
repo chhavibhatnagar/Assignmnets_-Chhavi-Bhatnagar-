@@ -67,9 +67,11 @@ The assistant retrieves the most relevant information from the uploaded document
 6. Inside the `.streamlit` folder, create a file named `secrets.toml` and add the following:
 
 ```toml
-[credentials]
-username = "your_username"
-password = "your_password"
+Use the following credentials to access the application after configuring the `secrets.toml` file.
+
+[credentials/Demo login]
+username = "XXXin"
+password = "XXXXX123"
 
 [openai]
 api_key = "your_openai_key"
