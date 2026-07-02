@@ -1,6 +1,7 @@
 streamlit
 python-dotenv
 PyMuPDF
+pypdf
 langchain
 langchain-community
 langchain-text-splitters
