@@ -72,10 +72,10 @@ username = "your_username"
 password = "your_password"
 
 [openai]
-api_key = "your_openai_api_key"
+api_key = "your_openai_key"
 
 [groq]
-api_key = "your_groq_api_key"
+api_key = "your_groq_key"
 ```
 
 7. Replace the placeholder values with your own credentials and API keys.
