@@ -1,0 +1,23 @@
+# Environment variables
+.env
+# Streamlit
+.streamlit/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Virtual environments
+venv/
+venv_eval/
+# macOS
+.DS_Store
+# Generated vector stores
+faiss_index/
+chroma_db/
+chroma_db_sentence-transformers_all-MiniLM-L6-v2/
+chroma_db_sentence-transformers_all-mpnet-base-v2/
+# Generated outputs
+highlighted*.pdf
+ragas_results.csv
+# Uploaded PDFs
+uploaded_pdfs/
