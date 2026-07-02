@@ -67,9 +67,8 @@ The assistant retrieves the most relevant information from the uploaded document
 6. Inside the `.streamlit` folder, create a file named `secrets.toml` and add the following:
 
 ```toml
-Use the following credentials to access the application after configuring the `secrets.toml` file.
 
-[credentials/Demo login]
+[credentials]
 username = "XXXin"
 password = "XXXXX123"
 
@@ -85,7 +84,7 @@ api_key = "your_groq_key"
 8. Run the Streamlit application and open the local URL displayed in the terminal.
 
 
-## Demo Login
+## Demo Login/Credentials
 
 Use the following credentials to access the application:
 
