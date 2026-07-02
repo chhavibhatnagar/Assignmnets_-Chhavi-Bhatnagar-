@@ -51,7 +51,6 @@ The assistant retrieves the most relevant information from the uploaded document
 * Export chat history and summaries
 * Cloud deployment
 
-
 # Steps
 
 1. Clone or download the repository.
@@ -62,31 +61,46 @@ The assistant retrieves the most relevant information from the uploaded document
 
 4. Install all the required dependencies using the `requirements.txt` file.
 
-5. Create a folder named `.streamlit` inside the `Smart_Research_Assistant` directory.
+5. Create a `.env` file by copying the provided `.env.example` file and replace the placeholder values with your own API keys.
 
-6. Inside the `.streamlit` folder, create a file named `secrets.toml` and add the following:
+Example:
 
-```toml
-
-[credentials]
-username = "XXXin"
-password = "XXXXX123"
-
-[openai]
-api_key = "your_openai_key"
-
-[groq]
-api_key = "your_groq_key"
+```env
+OPENAI_API_KEY=your_openai_api_key
+GROQ_API_KEY=your_groq_api_key
 ```
 
-7. Replace the placeholder values with your own credentials and API keys.
+6. Create a folder named `.streamlit` inside the `Smart_Research_Assistant` directory.
 
-8. Run the Streamlit application and open the local URL displayed in the terminal.
+Inside the `.streamlit` folder, create a file named `secrets.toml` and add the following:
 
+```toml
+[credentials]
+username = "admin"
+password = "research123"
 
-## Demo Login/Credentials
+[openai]
+api_key = "your_openai_api_key"
 
-Use the following credentials to access the application:
+[groq]
+api_key = "your_groq_api_key"
+```
 
-**Username:** `admin`
-**Password:** `research123`
+Replace the placeholder API keys with your own OpenAI and Groq API keys.
+
+7. Run the Streamlit application.
+
+---
+
+# Demo Login
+
+Use the following credentials to log in to the application:
+
+- **Username:** `admin`
+- **Password:** `research123`
+
+---
+
+# Note
+
+The `.env` and `.streamlit/secrets.toml` files are not included in this repository because they contain sensitive credentials and API keys.
